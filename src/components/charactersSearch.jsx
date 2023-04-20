@@ -5,6 +5,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 const CharacterSearchList = () => {
   const [characters, setCharacters] = useState([]);
   const [characterSearched, setCharacterSearched] = useState(""); 
+  // eslint-disable-next-line  
   const [limit, setLimit] = useState(21);
   const location = useLocation();
   const navigateTo = useNavigate();
